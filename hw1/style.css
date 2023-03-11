@@ -112,7 +112,8 @@ p{
       display: flex;
       margin-bottom: 20px;
 }
-.education__section-inner--curses--1,.education__section-inner--curses--1{
+.education__section-inner--curses--1,
+.education__section-inner--curses--1{
             font-weight: 700;
             font-size: 18px;
             line-height: 22px;
