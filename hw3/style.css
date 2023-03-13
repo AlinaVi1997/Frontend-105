@@ -52,6 +52,9 @@ li{
       text-align: center;
       justify-content: center;
 }
+a:hover{
+      color: #828282;
+}
 .name{
       display: flex;
       font-weight: 700;
