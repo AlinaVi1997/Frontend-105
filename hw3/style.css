@@ -70,7 +70,7 @@ a:hover{
       height: 500px;
       left: calc(50% - 1680px/2);
       top: 0px;
-      background-color: #828282;
+      background-color: #F6F6F6;
       flex-direction: column;
 }
 .h1{
