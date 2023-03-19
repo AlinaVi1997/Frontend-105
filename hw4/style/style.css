@@ -1,37 +1,32 @@
-*,
-*::after,
-*::before {
-      box-sizing: border-box;
-}
-body{
-      background-color: #3B3F45;
+body {
       font-family: 'Roboto', sans-serif;
-      color: #fff;
       margin: 0;
+      background-color: #555a61;
 }
-.container{
+.container {
       max-width: 534px;
       width: 100%;
-      margin: 0 auto;   
+      margin: 20px  auto;
 }
-.header{
+
+.header {
       padding: 19px 0 12px 0;
       background-color: #4A4F56;
 }
-.header .header__wrapper{
+.header__wrapper {
       display: flex;
-      align-items:center;
+      align-items: center;
       flex-direction: column;
       gap: 4px;
 }
-.header h1{
+.header h1 {
       font-weight: 700;
       align-items: center;
       justify-content: center;
       color: #FF8984;
       margin: 0;
 }
-.header h2{
+.header h2 {
       font-weight: 400;
       font-size: 16px;
       line-height: 19px;
@@ -39,27 +34,59 @@ body{
       color: #FF8984;
       margin: 0;
 }
-.form{
-      margin-top: 20px;
+.list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 40px;
+      color: #fff;
 }
-.form__item{
-      width: 534px;
-      height: 45px;
+.list form {
+      font-size: 18px;
       background: #88839E;
-      padding: 12px;
 }
 
-label{
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 21px;
+.list form:nth-child(2n) {
+      background-color: #7A7593;
 }
-span{
-      font-weight: 400;
-      font-size: 11px;
-      line-height: 21px;
+
+.list form:hover {
+      background: #5F6073;
+      outline: 0.3px solid #fff;
 }
-.main button{
+
+.list form:active {
+      background: #EB7E7F;
+}
+
+.list [type="checkbox"] {
+      width: 20px;
+      height: 20px;
+}
+
+.list [type="checkbox"]:checked+span {
+      text-decoration: line-through;
+      color: #a3a0b5;
+}
+
+.list label {
+      display: block;
+      padding: 15px;
+      cursor: pointer;
+}
+
+.text {
+      font-size: 15px;
+      vertical-align: middle;
+}
+
+.list .text:before {
+      content: '(';
+}
+
+.list .text:after {
+      content: ')';
+}
+button{
       width: 535px;
       height: 45px;
       left: 129px;
@@ -71,6 +98,6 @@ span{
       align-items: center;
       color: #FF8984;
       border: none;
-      margin-top: 45px;
-
+      cursor: pointer;
 }
+
