@@ -62,6 +62,12 @@ p{
       padding: 10px 20px 10px 20px;
       border: 1px solid #3C3C3C;
 }
+
+.button:hover{
+      color: #fff;
+      background-color: #18B5DC;
+      border:none;
+}
 .section{
       margin-bottom: 200px;
 }
@@ -90,9 +96,10 @@ p{
       justify-content: space-between;
 }
 .cart__box{
+      background-color: #18B5DC;
       width: 270px;
       height: 270px;
-      background-color:#18B5DC;
+      position: relative;
 }
 .cart__social-item{
       position: absolute;
@@ -102,7 +109,7 @@ p{
       gap: 5px;
       margin: 114px 68px 114px 68px;
       cursor: pointer;
-      display: none;
+      display: block;
 }
 .name{
       margin-top: 20px;
@@ -133,4 +140,3 @@ p{
       justify-content: center;
       gap: 10px;
 }
-
