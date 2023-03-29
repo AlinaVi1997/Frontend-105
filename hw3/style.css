@@ -155,15 +155,14 @@ a:hover{
       margin-bottom: 30px;
 }
 span{
-            color:white;
-            font-family: 'Open Sans';
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 25px;
-            text-align: center;
-            letter-spacing: 0.1em;
+      color:white;
+      font-family: 'Open Sans';
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.1em;
 }
-
 .social__box{
       display: flex;
       align-items: center;
@@ -173,7 +172,6 @@ span{
 .social__img-icon{
       margin-right: 50px;
 }
-
 .footer__subtitle{
       font-weight: 400;
       font-size: 14px;
