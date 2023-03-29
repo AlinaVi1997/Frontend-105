@@ -18,23 +18,30 @@ body{
       letter-spacing: 0.05em;
       color: #000000;
       margin-top: 120px;
+      margin-bottom: 80px;
 }
 .img{
       border-radius: 20px;
       object-fit: cover;
 }
-.section__1-wrapper{
+/* .section__1-wrapper{
       display: grid;
-      grid-template-columns: 1fr 2fr;
       grid-template-rows: auto;
+      align-items: center;
+      justify-content: center;
 }
 
+.section__1-inner{
+      align-items: center;
+      justify-content: center;
+      display: grid;
+} */
 .text-1,
 .text-2{
       position: absolute;
       display: flex;
       width: 330px;
-      bottom: 80px;
+      bottom: -20px;
       margin: 0 20px;
       justify-content: space-between;
 }
