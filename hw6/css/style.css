@@ -17,7 +17,6 @@ body{
       padding: 0;
       margin: 0 auto;
 }
-
 .section__1,
 .section__2,
 .section__3,
@@ -152,7 +151,6 @@ li:hover {
 .text{
       margin-bottom: 40px;
 }
-
 .section__3-title
 .section__4-title,
 .section__5-title {
@@ -162,7 +160,6 @@ li:hover {
       color: #2F281E;
       margin-bottom: 20px;
 }
-
 .simple__text{
       font-weight: 500;
       font-size: 16px;
