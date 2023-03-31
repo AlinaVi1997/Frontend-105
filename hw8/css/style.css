@@ -51,7 +51,6 @@ body {
       gap: 30px;
       margin-top: 30px;
 }
-<<<<<<< HEAD
 .img__1 {
       grid-column: 1/2;
       grid-row: 1/2;
@@ -71,23 +70,6 @@ body {
 .img__5 {
       grid-column: 3/4;
       grid-row: 2/4;
-=======
-.img__1{
-      grid-column: 1/2;
-      grid-row: 1/2;
-}
-.img__2{
-      grid-column: 2/3;
-      grid-row: 1/3;
-}
-.img__3{
-      grid-column: 3/4;
-      grid-row: 1/2;
-}
-.img__4{
-      grid-column: 1/2;
-      grid-row: 2/3;
->>>>>>> f1d28402c347ea842a025c88a510eddfd2f87f0d
 }
 .img__6 {
       grid-column: 1/2;
@@ -145,7 +127,6 @@ body {
      background-color: rgba(0, 0, 0, 0.282);
      border-radius:20px;
 }
-
 .icon {
       color: white;
       font-size: 100px;
