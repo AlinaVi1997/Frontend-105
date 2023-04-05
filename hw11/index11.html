@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./css/style.css">
+      <title>Hw11</title>
+</head>
+<body>
+       <div class="left-box">
+            <div class="container">
+                  <div class="container__inner">
+                        <h1 class="h1">Create an Account</h1>
+                              <form class="form" action="/form">
+                                    <div class="fields">
+                                          <div class="input__field">
+                                                <label for="fname">First Name</label>
+                                                <input class="input__form" type="text" id="fname" name="firstname">
+                                          </div>
+                                          <div class="input__field">
+                                                <label for="lname">Last Name</label>
+                                                <input class="input__form" type="text" id="lname" name="lastname">
+                                          </div>
+                                    </div>
+                                          <div class="input__field">
+                                                 <label for="email">Email</label>
+                                                <input class="input__form email" type="text" id="email" name="email">
+                                          </div>
+                                          <div class="subtitle">We'll never share your email with anyone else.</div>
+                                          <div class="input-radio__items">
+                                                <label class="container__radio">Male
+                                                 <input type="radio" checked="checked" name="radio">
+                                                <span class="checkmark"></span>
+                                                 </label>
+                                                <label class="container__radio">Female
+                                                 <input type="radio" name="radio">
+                                                <span class="checkmark"></span>
+                                                 </label>
+                                          </div>
+                                     <div class="fields">
+                                          <div class="input__field">
+                                                <label for="country">Country</label>
+                                                      <select class="input__form" id="country" name="country">
+                                                      <option value="select">Select</option>
+                                                      <option value="usa">USA</option>
+                                                      <option value="canada">Canada</option>
+                                                      </select> 
+                                           </div>    
+                                          <div class="input__field">
+                                                <label for="sity">Sity</label>
+                                                      <input class="input__form" type="text" id="sity" name="sity">
+                                          </div> 
+                                    </div>    
+                              <input class="button" type="submit" value="Sign Up">
+                              <div class="text-footer__box">
+                                    <div class="text__footer">By clicking the 'Sign Up' button, you confirm that you accept our<br> <span>Terms of Use</span>Terms of Use and <span>Privacy Policy.</span> 
+                                    </div>
+                              </div>
+                              <div class="login__footer">
+                                    <div class="logo__footer-box">
+                                          <a class="login" href="#">Have an account?</a>
+                                          <a class="login log" href="#">Log in</a>
+                                    </div>
+                              </div>
+                        </form>
+                   </div>
+            </div>
+      </div>
+            <div class="right-box">
+                  <div class="container">
+                        <div class="container__inner">
+                              <h1 class="h1">Profile</h1>
+                                    <form class="form" action="/form">
+                                          <div class="avatar">
+                                                <img class="img__avatar" src="./img/avatar.svg" alt="#"></div>
+                                          <div class="profile">
+                                                <input  style="background-image: url(../hw11/img/camera.svg); background-repeat: no-repeat;background-position: right 9% bottom 47%;"class="profile__input" type="text" >
+                                                <img src="./img/trash.svg" alt="#">
+                                                 <div class="title">Up to 1 MB (300x300 px)</div>
+                                          </div>
+                                          <div class="fields rigth-box">
+                                                <div class="input__field">
+                                                       <label for="fname">First Name</label>
+                                                       <input class="input__form" type="text" id="fname" name="firstname">
+                                                </div>
+                                                <div class="input__field">
+                                                       <label for="lname">Last Name</label>
+                                                       <input class="input__form" type="text" id="lname" name="lastname">
+                                                </div>
+                                                </div>
+                                                 <div class="fields right-box">
+                                                      <div class="input__field">
+                                                            <label for="country">Country</label>
+                                                            <select class="input__form" id="country" name="country">
+                                                            <option value="select">Select</option>
+                                                            <option value="usa">USA</option>
+                                                            <option value="canada">Canada</option>
+                                                            </select> 
+                                                      </div>    
+                                                      <div class="input__field">
+                                                            <label for="sity">Sity</label>
+                                                                  <input class="input__form" type="text" id="sity" name="sity">
+                                                       </div> 
+                                                </div>
+                                                <div class="fields">
+                                                <div class="input__field">
+                                                       <label for="fname">Zip Code</label>
+                                                       <input class="input__form" type="text" id="fname" name="firstname">
+                                                </div>
+                                                <div class="input__field">
+                                                       <label for="lname">Phone Number</label>
+                                                       <input class="input__form" type="text" id="lname" name="lastname">
+                                                </div>
+                                          </div>
+                                           <input class="button update" type="submit" value="Update">        
+                                    </div> 
+                              </form>
+                        </div>
+                  </div>
+            </div>
+      </body>
+</html>
