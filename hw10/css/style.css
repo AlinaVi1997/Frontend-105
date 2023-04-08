@@ -1,0 +1,177 @@
+* {
+      box-sizing: border-box;
+}
+body {
+      font-family: 'PT Sans', sans-serif;
+      margin: 0 auto;
+      padding: 0;
+}
+p {
+      padding: 0;
+      margin: 0;
+}
+.container {
+      width: 1200px;
+      margin: 0 auto;
+}
+.header__inner {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    height: 100px;
+    top: 0;
+    gap: 95vh;
+    background-color: #fff;
+    padding: 0;
+    z-index: 99999;
+    width: 100%;
+}
+.nav {
+      display: flex;
+      position: absolute;
+      margin-left: 100px;
+      gap: 10px;
+}
+.language {
+      font-family: 'Tourney';
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+}
+.header__title,
+.header__subtitle {
+      font-family: 'Staatliches';
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      letter-spacing: 0.03em;
+      color: #000000;
+}
+.slash {
+      font-family: 'Staatliches';
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+}
+.bg-picture{
+      position: absolute;
+      right: 0;
+}
+.aside{
+      display: grid;
+      position: absolute;
+      gap: 80px;
+}
+.big__title-box::after{
+      content: "";
+      background-color: #cccccc;
+      width: 370px;
+      position: absolute;
+      height: 1px;
+      margin-top: 10px;
+}
+.big__title-box-name{
+      font-family: 'Francois One';
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+       color: #000000;
+}
+.introduction,
+.core-components,
+.creact-fundamentals,
+.handling-text-input {
+      margin-top: 180px;
+      position: relative;
+      left: 43vh;
+      width: 785px;
+      z-index: 22;
+}
+.introduction:before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 8px;
+    background-color: #000000;
+    margin-bottom: 20;
+    top: -20px;
+}
+.core-components::before{
+      position: absolute;
+      content: "";
+      width: 100px;
+      height: 8px;
+      background-color: #000000;
+      margin-bottom: 20;
+      top: -20px;
+}
+.creact-fundamentals::before{
+      position: absolute;
+      content: "";
+      width: 100px;
+      height: 8px;
+      background-color: #000000;
+      margin-bottom: 20;
+      top: -20px;
+}
+.handling-text-input::before{
+      position: absolute;
+      content: "";
+      width: 100px;
+      height: 8px;
+      background-color: #000000;
+      margin-bottom: 20;
+      top: -20px;
+}
+.core-components,
+.creact-fundamentals,
+.handling-text-input {
+      margin-top: 70px;
+}
+.title {
+      display: flex;
+      gap: 3px;
+}
+.h1 {
+      font-family: 'Francois One';
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin: 0;
+}
+.chapter {
+      font-family: 'Farro';
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 30px;
+      letter-spacing: 0.04em;
+      margin-top: -10px;
+}
+.content {
+      z-index: 2;
+      width: 100%;
+      font-family: 'PT Sans';
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 48px;
+      margin-top: 40px;
+}
+.content__underline {
+      text-decoration: underline;
+}
+.content__italic {
+      font-style: italic;
+}
+.text__bold {
+      font-weight: 700;
+}
+.background {
+      background-color: #d5d5d5;
+}
