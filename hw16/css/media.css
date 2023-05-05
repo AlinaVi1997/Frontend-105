@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+  .container {
+    margin: 0 34px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .footer__inner .footer__title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .footer__inner .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .grid-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mail {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    margin: 0 10px;
+  }
+  .title {
+    margin-bottom: 40px;
+  }
+  .first-descr {
+    width: 100%;
+  }
+  .bg__img {
+    display: none;
+  }
+  .small-img {
+    display: block;
+  }
+  .h1 {
+    margin-bottom: 40px;
+  }
+  .footer__inner .footer__text {
+    font-size: 16px;
+    text-align: center;
+  }
+}
