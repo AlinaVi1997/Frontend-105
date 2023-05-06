@@ -2,6 +2,8 @@
 // Comments
 /*Comments*/
 
+//Норма//
+
 let name = prompt("Будь ласка введіть ваше імя");
 alert("Hello," + name);
 
@@ -13,5 +15,12 @@ alert(result.toFixed(0) + 'year');
 let side = prompt("Enter the lenght of the side of the square");
 let P = side * 4;
 alert("Perimeter of the square is  " + P);
+
+//Максимум//
+
+
+
+
+
 
 
