@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    
         $('.header__button').on('click', function () {
         $('.rightside-menu').removeClass('rightside-menu--close');
     });

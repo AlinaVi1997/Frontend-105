@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
-
+@import "_media";
 main{
     flex: 1 0 auto;
 }
@@ -55,21 +55,32 @@ a{
     display: flex;
     gap: 30px;
 }
-.top__inner{
-    position: relative;
-}
-.top__slider-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.top__slider-info-1,
-.top__slider-info-2,
-.top__slider-info-3{
-    position: absolute;
-    top: 120px;
-    width: 350px;
-    text-align: center;
+.top__slider {
+    &-item {
+        position: relative;
+        height: 900px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .top__slider-info {
+            padding-top: 120px;
+            max-width: 500px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
 
 .top__inner-title{
@@ -89,8 +100,12 @@ a{
     color: #FFFFFF;
     background-color:transparent;
     border: 2px solid #F8F1EA;
-    padding: 15px 57px;
     cursor: pointer;
+    min-width: 227px;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .slick-track{
     display: flex;
@@ -126,8 +141,11 @@ a{
         font-size: 0;
     }
 }
-.products{
+.products {
     padding-top: 70px;
+    .container {
+        max-width: 1320px;
+    }
     .products__title{
         font-style: normal;
         font-weight: 700;
@@ -142,6 +160,12 @@ a{
         display: flex;
         margin-bottom: 50px;
         cursor: pointer;
+        .slick-slide {
+            margin: 0 10px;
+        }
+        .slick-list {
+            margin: 0 -10px;
+        }
         .products__item{
             border: 1px solid #F8F1EA;
             padding: 20px 10px;
@@ -190,6 +214,16 @@ a{
             line-height: 19px;
             margin-bottom: 10px;
         }
+        .products__items__arrowLeft {
+            width: 200px;
+            padding-right: 50px;
+            margin-left: -50px;
+        }
+        .products__items__arrowRight {
+            width: 200px;
+            padding-left: 50px;
+            margin-right: -50px;
+        }
     }
     .products__item-price{
         font-style: normal;
@@ -216,6 +250,14 @@ a{
     background-color: #F8F1EA;
     height: 290px;
     width: 100%;
+    .partners__items-slider {
+        .slick-slide {
+            margin: 0 10px;
+        }
+        .slick-list {
+            margin: 0 -10px;
+        }
+    }
     .partners__title{
         font-style: normal;
         font-weight: 700;
