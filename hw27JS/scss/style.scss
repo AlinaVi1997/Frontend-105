@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
-
+*{
+    box-sizing: border-box;
+}
 main{
     flex: 1 0 auto;
 }
@@ -22,8 +24,6 @@ a{
     margin: 0 auto;
     padding: 0 10px;
 }
-
-
 .header{
     height: 80px;
     background-color: #F8F1EA;
@@ -68,7 +68,7 @@ a{
 .top__slider-info-3{
     position: absolute;
     top: 120px;
-    width: 350px;
+    width: 400px;
     text-align: center;
 }
 
@@ -139,7 +139,6 @@ a{
         margin-bottom: 50px;
     }
     .products__items{
-        display: flex;
         margin-bottom: 50px;
         cursor: pointer;
         .products__item{
@@ -239,8 +238,6 @@ a{
     right: 160px;
     top: 50%;
 }
-
-
 
 .footer__inner{
     background-color: #35312D;

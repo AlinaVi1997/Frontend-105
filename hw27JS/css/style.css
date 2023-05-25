@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
 main {
   -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
@@ -89,7 +93,7 @@ a {
 .top__slider-info-3 {
   position: absolute;
   top: 120px;
-  width: 350px;
+  width: 400px;
   text-align: center;
 }
 
@@ -172,9 +176,6 @@ a {
   margin-bottom: 50px;
 }
 .products .products__items {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   margin-bottom: 50px;
   cursor: pointer;
 }
