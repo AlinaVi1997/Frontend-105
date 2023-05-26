@@ -1,38 +1,37 @@
 $(document).ready(function () {
-    
-        $('.header__button').on('click', function () {
-        $('.rightside-menu').removeClass('rightside-menu--close');
-    });
-
     $('.top__slider').slick({
         dots: true,
         speed: 300,
         arrows: false,
-        // autoplay: true,
+        autoplay: true,
     });
-
-    // $('.products__items').slick({
-    // slidesToShow: 5,
-    // slidesToScroll: 5,
-    // dots: false,
-    // arrows: true,
-    // });
 
     $('.products__items').slick({
         speed: 300,
         slidesToShow: 5,
         slidesToScroll: 1,
         infinite: true,
+        arrow: false,
         responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 769,
                 settings: {
-                    arrows:true,
-                    centerPadding: "20px",
+                    speed: 300,
+                    arrows: true,
                     slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                 }
             },
+        {
+            breakpoint: 321,
+                settings: {
+                    arrows: false,
+                    autoplay: true,
+                    // dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
         ],
         prevArrow: '<button type="button" class="products__items__arrow products__items__arrowLeft"><img src="images/prev.svg" alt=" arrow prev"></button>',
         nextArrow: '<button type="button" class="products__items__arrow products__items__arrowRight"><img src="images/next.svg" alt=" arrow next"></button>',
@@ -41,18 +40,27 @@ $(document).ready(function () {
     $('.partners__items-slider').slick({
         slidesToShow: 9,
         slidesToScroll: 1,
+        variableWidth: true,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                     slidesToShow: 6,
                     slidesToScroll: 1,
                 }
             },
+          {
+            breakpoint: 321,
+              settings: {
+                    variableWidth: true,
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            }
         ],
         prevArrow: '<button type="button" class="partners__items__arrow partners__items__arrowLeft"><img src="images/prev.svg" alt=" arrow prev"></button>',
         nextArrow: '<button type="button" class="partners__items__arrow partners__items__arrowRight"><img src="images/next.svg" alt=" arrow next"></button>',
     });
 });
-	
 	
